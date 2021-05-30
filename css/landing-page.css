@@ -34,13 +34,26 @@
   top: 100px;
 }
 
-@media (max-width: 1340px) {
-  .dr-portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.product-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 40px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
 }
+
+.agrounikum {
+  margin-top: 38px;
+}
+.bioprodukt {
+  margin-top: 17px;
+}
+.logo-space {
+  padding: 15px;
+}
+
 @media (max-width: 992px) {
   .logo-wrap {
     display: none;
@@ -100,7 +113,11 @@
   padding: 15px;
 }
 .about-bckg {
-  background: linear-gradient(45deg, rgb(1, 83, 52), transparent);
+  /* background: linear-gradient(45deg, rgb(1, 83, 52), transparent); */
+}
+.info-text {
+  color: rgb(1, 106, 91);
+  font-weight: 600;
 }
 .footer-logo {
   width: 170px;
@@ -121,4 +138,113 @@
 iframe {
   width: 100%;
   height: 500px;
+}
+
+.image-list img {
+  object-fit: cover;
+  max-height: 390px;
+  padding: 10px 10px;
+  justify-content: center;
+}
+
+.section-cover {
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.extra-service-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.extra-service-list li {
+  height: 185px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0auto; */
+}
+.extra-service-list li span {
+  padding: 15px;
+  background: rgba(230, 230, 230, 0.8);
+  width: 100%;
+  font-weight: 700;
+  text-align: center;
+}
+
+.first {
+  background: url("../assets/img/dodatni/katalog.jpg");
+}
+.second {
+  background: url("../assets/img/dodatni/brosura.jpg");
+}
+.third {
+  background: url("../assets/img/dodatni/knjiga.jpg");
+}
+.fourth {
+  background: url("../assets/img/dodatni/flajer.jpg");
+}
+.fifth {
+  background: url("../assets/img/dodatni/memorandum.png");
+}
+.sixth {
+  background: url("../assets/img/dodatni/flajer.jpg");
+}
+.seventh {
+  background: url("../assets/img/dodatni/kese.jpg");
+}
+.eighth {
+  background: url("../assets/img/dodatni/vizitka.jpg");
+}
+
+.kesice-border:not(:last-child) {
+  border: 1px solid #eee;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+}
+
+.mission-text {
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.blok {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-top: 16px;
+}
+.blok span {
+  margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+  .extra-service-list li {
+    height: 156px;
+  }
+  .extra-service-list li span {
+    padding: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .extra-service-list li {
+    height: 116px;
+  }
+  .extra-service-list li span {
+    padding: 7px;
+  }
+}
+@media (max-width: 770px) {
+  .extra-service-list li {
+    background-size: cover;
+  }
 }

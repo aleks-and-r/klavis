@@ -226,6 +226,23 @@ iframe {
 .blok span {
   margin-left: 20px;
 }
+.bckg-sec {
+  background: url("../assets/img/bank-phrom-Tzm3Oyu_6sk-unsplash (1).jpg");
+}
+.parallax {
+  /* The image used */
+  background: url("../assets/img/magnifying-glass.jpg");
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .bckg-section {
+  background: url("../assets/img/magnifying-glass.jpg");
+  height: 750px;
+} */
 
 @media (max-width: 1200px) {
   .extra-service-list li {

@@ -231,6 +231,16 @@ iframe {
 }
 .parallax {
   /* The image used */
+  background: url("../assets/img/seme.jpg");
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
   background: url("../assets/img/magnifying-glass.jpg");
   min-height: 500px; 
   /* Create the parallax scrolling effect */

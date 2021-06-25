@@ -226,9 +226,12 @@ iframe {
 .blok span {
   margin-left: 20px;
 }
-.bckg-sec {
-  background: url("../assets/img/bank-phrom-Tzm3Oyu_6sk-unsplash (1).jpg");
+@media (max-width: 767.98px) {
+  .blok {
+    width: 100%;
+  }
 }
+
 .parallax {
   /* The image used */
   background: url("../assets/img/seme.jpg");

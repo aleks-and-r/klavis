@@ -1934,6 +1934,9 @@ pre code {
 }
 
 @media (max-width: 575.98px) {
+  .row {
+    justify-content: center;
+  }
   .table-responsive-sm {
     display: block;
     width: 100%;

@@ -10123,3 +10123,8 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+.center-image {
+  display: flex;
+  margin: 0 auto;
+}
